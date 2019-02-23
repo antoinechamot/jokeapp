@@ -11,6 +11,8 @@
 	<groupId>ancm.springboot</groupId>
 	<artifactId>jokeapp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+	
 	<name>jokeapp</name>
 	<description>Chuck norris jokes app</description>
 
@@ -32,6 +34,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		
+		<dependency>
+			<groupId>guru.springframework</groupId>
+			<artifactId>chuck-norris-for-actuator</artifactId>
+			<version>0.0.2</version>
 		</dependency>
 	</dependencies>
 
